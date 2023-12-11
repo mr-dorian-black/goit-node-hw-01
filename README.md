@@ -1,19 +1,33 @@
-# Получаем и выводим весь список контактов в виде таблицы (console.table)
+# Homework №1 Node.js
 
-[node index.js --action list]
-(https://monosnap.com/file/MbZwdgfIAdzzh6fzzn7vtKwT80zoxl)
+## Получаем и выводим весь список контактов в виде таблицы (console.table)
 
-# Получаем контакт по id - выводим в консоль объект контакта или null, если контакта с таким id не существует.
+```bash
+node index.js --action list
+```
 
-[node index.js --action get --id 05olLMgyVQdWRwgKfg5J6]
-(https://monosnap.com/file/TA7yHxU26V2CO0RmBP1eOAYmTXvcAc)
+![example-1](./assets/img-1.png)
 
-# Добавляем контакт и выводим в консоль созданный контакт
+## Получаем контакт по id - выводим в консоль объект контакта или null, если контакта с таким id не существует.
 
-[node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22]
-(https://monosnap.com/file/W14VzuT3QU17BrNADJ6uXoNEbyrrMM)
+```bash
+node index.js --action get --id 05olLMgyVQdWRwgKfg5J6
+```
 
-# Удаляем контакт и выводим в консоль удаленный контакт или null, если контакта с таким id не существует.
+![example-2](./assets/img-2.png)
 
-[node index.js --action remove --id qdggE76Jtbfd9eWJHrssH]
-(https://monosnap.com/file/NhfEjJ7NFQnKLRJnlChYfHn3l5W4hk)
+## Добавляем контакт и выводим в консоль созданный контакт
+
+```bash
+node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
+```
+
+![example-3](./assets/img-3.png)
+
+## Удаляем контакт и выводим в консоль удаленный контакт или null, если контакта с таким id не существует.
+
+```bash
+node index.js --action remove --id qdggE76Jtbfd9eWJHrssH
+```
+
+![example-4](./assets/img-4.png)
